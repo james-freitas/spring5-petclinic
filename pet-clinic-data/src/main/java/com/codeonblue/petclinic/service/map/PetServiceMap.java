@@ -1,11 +1,11 @@
 package com.codeonblue.petclinic.service.map;
 
 import com.codeonblue.petclinic.model.Pet;
-import com.codeonblue.petclinic.service.CrudService;
+import com.codeonblue.petclinic.service.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
     public Set<Pet> findAll() {
