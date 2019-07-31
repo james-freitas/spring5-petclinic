@@ -2,9 +2,11 @@ package com.codeonblue.petclinic.service.map;
 
 import com.codeonblue.petclinic.model.Pet;
 import com.codeonblue.petclinic.service.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
