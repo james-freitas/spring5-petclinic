@@ -1,13 +1,13 @@
 package com.codeonblue.petclinic.service.map;
 
 import com.codeonblue.petclinic.model.Speciality;
-import com.codeonblue.petclinic.service.SpecialtiesService;
+import com.codeonblue.petclinic.service.SpecialtyService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
-public class SpecialityMapService extends AbstractMapService<Speciality, Long> implements SpecialtiesService {
+public class SpecialityMapService extends AbstractMapService<Speciality, Long> implements SpecialtyService {
 
     @Override
     public Set<Speciality> findAll() {
